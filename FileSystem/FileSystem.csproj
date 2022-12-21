@@ -7,11 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Core\Infrastructure\Infrastructure.csproj" />
-    <ProjectReference Include="..\..\Core\Domain\Domain.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <PackageReference Include="CloudIn.Core.Domain" Version="1.0.0" />
+    <PackageReference Include="CloudIn.Core.Infrastructure" Version="1.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.App" Version="2.2.8" />
   </ItemGroup>
 </Project>
